@@ -13,11 +13,15 @@
 	<script src="js/skel.min.js"></script>
 	<script src="js/skel-panels.min.js"></script>
 	<script src="js/init.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<noscript>
 		<link rel="stylesheet" href="css/skel-noscript.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/style-desktop.css" />
 		<link rel="stylesheet" href="css/style-noscript.css" />
+
 	</noscript>
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 </head>
@@ -111,22 +115,17 @@
         </tr>
         <tr>
           <td>2pm-3pm</td>
-          <td><a href="">Opening Ceremonies</a></td>
+          <td>Opening Ceremonies</td>
           <td>Robertson Hall, Dod Auditorium</td>
         </tr>
         <tr>
           <td>3pm-4pm</td>
-          <td><a href="">Design Sprint with S.E.E.K.H.O</a></td>
+          <td><a data-toggle="modal" data-target="#seekhoModal">Design Sprint with S.E.E.K.H.O</a></td>
           <td>Robertson 005</td>
         </tr>
         <tr>
-          <td>6:30pm-8pm</td>
-          <td><a href="">Dinner</a></td>
-          <td>Robertson Hall Lobby</td>
-        </tr>
-        <tr>
-          <td>7pm-9pm</td>
-          <td><a href="">Idea Factory and Mixer</a></td>
+          <td>6:30pm-8:30pm</td>
+          <td><a data-toggle="modal" data-target="#ifModal">Idea Factory and Mixer w/ Idea Factory Team</a></td>
           <td><a href="https://goo.gl/maps/OBkcq" >Tigerlabs, Click for Map</a></td>
         </tr>
         <tr class="day">
@@ -134,27 +133,27 @@
         </tr>
         <tr>
           <td>10am-11am</td>
-          <td><a href="">Mobile development made easy w/ Sarah from Firebase</a></td>
+          <td><a data-toggle="modal" data-target="#sarahModal">Mobile development made easy w/ Sarah from Firebase</a></td>
           <td>Robertson 005</td>
         </tr>
         <tr>
           <td>12pm-1pm</td>
-          <td><a href="">Lunch</a></td>
+          <td>Lunch</td>
           <td>Robertson Lobby</td>
         </tr>
         <tr>
           <td>1pm-2pm</td>
-          <td><a href="">Customer Development and Idea Evaluation w/ Dhruv Vasistha from General Assembly</a></td>
+          <td><a data-toggle="modal" data-target="#dhruvModal">Customer Development and Idea Evaluation w/ Dhruv Vasistha from General Assembly</a></td>
           <td>Robertson Lobby</td>
         </tr>
         <tr>
           <td>2pm-3pm</td>
-          <td><a href="">Web Development, Node.js, Workshop w/ Collin</a></td>
+          <td><a data-toggle="modal" data-target="#collinModal">Web Development, Node.js, Workshop w/ Collin</a></td>
           <td>Robertson 035</td>
         </tr>
         <tr>
           <td>12pm-1pm</td>
-          <td><a href="">iOS Mobile Development w/ Rishi</a></td>
+          <td><a data-toggle="modal" data-target="#rishiModal">iOS Mobile Development w/ Rishi</a></td>
           <td>Robertson 005</td>
         </tr>             
         <tr class="day">
@@ -162,22 +161,22 @@
         </tr>
         <tr>
           <td>12pm-1pm</td>
-          <td><a href="">Lunch</a></td>
+          <td>Lunch</td>
           <td>Robertson Lobby</td>
         </tr>
         <tr>
           <td>1pm-3pm</td>
-          <td><a href="">iOS Mobile Office Hours w/ Sammy</a></td>
+          <td><a data-toggle="modal" data-target="#sammyModal">iOS Mobile Office Hours w/ Sammy</a></td>
           <td>Robertson Lobby</td>
         </tr>
         <tr>
           <td>2pm-3pm</td>
-          <td><a href="">Web Development Workshop Part 2 w/ Collin</a></td>
+          <td><a data-toggle="modal" data-target="#collinModal">Web Development Workshop Part 2 w/ Collin</a></td>
           <td>Robertson 035</td>
         </tr>
         <tr>
           <td>3pm-4pm	</td>
-          <td><a href="">Pitch Decks in a Box w/ James Smits from Tigerlabs</a></td>
+          <td><a data-toggle="modal" data-target="#jamesModal">Pitch Decks in a Box w/ James Smits from Tigerlabs</a></td>
           <td>Robertson 005</td>
         </tr>            
         <tr class="day">
@@ -185,22 +184,22 @@
         </tr>
         <tr>
           <td>11am-12pm</td>
-          <td><a href="">VC 101 with Alexander from Union Square Ventures</a></td>
+          <td><a data-toggle="modal" data-target="#alexModal">VC 101 with Alexander from Union Square Ventures</a></td>
           <td>Robertson 005</td>
         </tr>
         <tr>
           <td>12pm-1pm</td>
-          <td><a href="">Lunch</a></td>
+          <td>Lunch</td>
           <td>Robertson Lobby</td>
         </tr>
         <tr>
           <td>1pm-2pm</td>
-          <td><a href="">Talk w/ Bert Navarette from Tigerlabs</a></td>
+          <td><a data-toggle="modal" data-target="#bertModal">Talk w/ Bert Navarette from Tigerlabs</td>
           <td>Robertson 005</td>
         </tr>
         <tr>
           <td>2pm-4pm	</td>
-          <td><a href="">Office Hours w/ Collin for Web Development</a></td>
+          <td><a data-toggle="modal" data-target="#collinModal">Office Hours w/ Collin for Web Development</td>
           <td>Robertson 035</td>
         </tr>  
         <tr class="day">
@@ -208,22 +207,22 @@
         </tr>
         <tr>
           <td>11am-12pm</td>
-          <td><a href="">Beginner Sys Ops & Deployment</a></td>
+          <td><a data-toggle="modal" data-target="#raymondModal1">Beginner Sys Ops & Deployment w/ Raymond Zhong</a></td>
           <td>Robertson 005</td>
         </tr>
         <tr>
           <td>12pm-1pm</td>
-          <td><a href="">Lunch</a></td>
+          <td>Lunch</td>
           <td>Robertson Lobby</td>
         </tr>
         <tr>
           <td>1pm-2pm</td>
-          <td><a href="">How to find a job at a startup</a></td>
+          <td><a data-toggle="modal" data-target="#raymondModal2">How to find a job at a startup</a></td>
           <td>Robertson 005</td>
         </tr>
         <tr>
           <td>2pm-4pm</td>
-          <td><a href="">Office Hours w/ Collin for Web Development</a></td>
+          <td><a data-toggle="modal" data-target="#collinModal">Office Hours w/ Collin for Web Development</a></td>
           <td>Robertson 035</td>
         </tr> 
         <tr class="day">
@@ -236,7 +235,7 @@
         </tr>
         <tr>
           <td>2pm-4pm</td>
-          <td>Presentations and Closing Ceremonies with Professor Kuenne,CEO of Rosetta</td>
+          <td><a data-toggle="modal" data-target="#raymondModal1">Presentations and Closing Ceremonies w/ Professor Kuenne,Founder and Chairman of Rosetta <a></td>
           <td>Robertson Hall, Dod Auditorium</td>
         </tr>   
       </tbody>
@@ -405,61 +404,136 @@
 
 </body>
 
+<!-- Modal -->
+<div class="modal fade" id="seekhoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Design Sprint with S.E.E.K.H.O</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-<div id="seekhoModal" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h3>Design Sprint with S.E.E.K.H.O</h3>
-		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
-		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-	</div>
-</div>
+<!-- Modal -->
+<div class="modal fade" id="ifModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Idea Factory and Mixer at Tigerlabs!</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-<div id="sarahModal" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h3>Mobile development made easy w/ Sarah from Firebase</h3>
-		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
-		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-	</div>
-</div>
+<!-- Modal -->
+<div class="modal fade" id="sarahModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Mobile development made easy w/ Sarah from Firebase</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-<div id="dhruvModal" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h3>Customer Development and Idea Evaluation w/ Dhruv Vasistha from General Assembly</h3>
-		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
-		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-	</div>
-</div>
+<!-- Modal -->
+<div class="modal fade" id="dhruvModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Customer Development and Idea Evaluation</h4>
+      </div>
+      <div class="modal-body">
+        <img border=1px src="images/dhruvImage.jpg" />
 
-<div id="alexModal" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h3>VC 101 with Alexander from Union Square Ventures</h3>
-		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
-		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-	</div>
-</div>
+        <p></p>
 
-<div id="raymond1Modal" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h3>Beginner Sys Ops & Deployment</h3>
-		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
-		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-	</div>
-</div>
+        <p>
+        <a href="https://generalassemb.ly/instructors/dhruv-vasishtha/1986">Dhruv Vasishtha</a> is the founder of Wellnest, a mobile mental health management platform that allows users to manage their mental stresses in real time. Wellnest also sends dashboards to clinicians so they may see how their patients are performing outside the office. Dhruv also co-founded The Rap Insider, a satirical music news online publication which receives 100K views a month. After graduating from Columbia University with a BA in economics, Dhruv was a business consulting associate at ZS Associates focusing on user experience.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-<div id="raymond2Modal" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h3>How to find a job at a startup</h3>
-		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
-		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-	</div>
-</div>
+<!-- Modal -->
+<div class="modal fade" id="alexModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">VC 101 with Alexander from Union Square Ventures</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
+<!-- Modal -->
+<div class="modal fade" id="raymondModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Beginner Sys Ops & Deployment w/ Raymond Zhong</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
+<!-- Modal -->
+<div class="modal fade" id="raymondModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">How to find a job at a startup w/ Raymond Zhong</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 </html>

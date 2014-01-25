@@ -1664,7 +1664,7 @@
 	}
 	/* Define the default color for all the table rows */
 	.schedule tr{
-		background: #d9d5d5;
+		background: #ccecd8;
 	}
 	/* Define the hover highlight color for the table row */
     .schedule tr:hover {

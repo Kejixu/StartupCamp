@@ -1654,3 +1654,26 @@
 			{
 				text-align: center;
 			}
+
+.schedule{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.schedule td{ 
+		padding:7px; border:#000000 1px solid;
+	}
+	/* Define the default color for all the table rows */
+	.schedule tr{
+		background: #d9d5d5;
+	}
+	/* Define the hover highlight color for the table row */
+    .schedule tr:hover {
+          background-color: #ffff99;
+    }
+ .schedule .day td {
+text-align: left;
+text-indent: 30px;
+}
+th {
+font-weight: bold;
+}

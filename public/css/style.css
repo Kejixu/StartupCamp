@@ -1677,9 +1677,3 @@ text-indent: 30px;
 th {
 font-weight: bold;
 }
-
-@media (max-width: 767px) {
-  #content .modal.fade.in {
-    top: 5%;
-  }
-}
